@@ -1,0 +1,15 @@
+.header {
+    position: relative;
+    width: 1440px;
+    background-color: aquamarine;
+}
+
+.nav-list {
+    position: absolute;
+    display: flex;
+    background-color: aquamarine;
+    width: 447px;
+    height: 24px;
+    top: 39px;
+    left: 305px;
+}
