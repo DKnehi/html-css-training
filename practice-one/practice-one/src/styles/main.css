@@ -1,4 +1,6 @@
 @import "../styles/base/index.css";
+@import "./sections/index.css";
+@import "./untils/variables.css";
 @import "./components/index.css";
 @import "./layout/index.css";
 

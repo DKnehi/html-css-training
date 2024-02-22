@@ -1,0 +1,11 @@
+.top-destination {
+    width: 1440px;
+    margin-top: 100px;
+    text-align: center;
+}
+.top-destination-text-box .top-destination-heading {
+    font-weight: var(--font-weight-heading-section);
+    font-size: var(--size-large);
+    line-height: 66px;
+    color: var(--color-primary);
+}
