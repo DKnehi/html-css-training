@@ -28,3 +28,59 @@
     background-color: var(--color-primary);
     color: var(--color-light);
 }
+.top-destination-btn {
+    margin: 0 4px;
+    width: 92px;
+    height: 34px;
+    border-radius: 30px;
+    color: var(--color-primary);
+    background-color: var(--color-btn);
+    border: 1px solid #3D3D3D;
+    font-weight: var(--font-weight-normal);
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.top-destination-btn:hover {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+.top-destination-img-btn {
+    position: absolute;
+    width: 42px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: var(--color-light);
+    border: 0px;
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}
+.left-box-card1 {
+    margin: 25px;
+}
+.left-box-card2 {
+    margin: 25px;
+}
+.center-box-card3 {
+    margin: 25px;
+    color: var(--color-light);
+    background-color: var(--color-primary);
+}
+.right-box-card4 {
+    margin: 25px;
+    color: var(--color-light);
+    background-color: var(--color-primary);
+}
+.right-box-card5 {
+    margin: 25px;
+    color: var(--color-light);
+    background-color: var(--color-primary);
+}
+.right-box-card6 {
+    margin: 25px;
+    color: var(--color-light);
+    background-color: var(--color-primary);
+}

@@ -8,7 +8,6 @@
     --color-ball:#FFD482;
     --color-btn: #FAF8ED;
 
-  
     --size-very-small: 12px;
     --size-small: 16px;
     --size-medium: 18px;
@@ -17,5 +16,5 @@
     --font-weight-normal: 400;
     --font-weight-heading-section: 600;
     --font-weight-bold: 700;
-    --font-style-default: normal;
-  }
+    --font-style-default: normal; 
+    }
