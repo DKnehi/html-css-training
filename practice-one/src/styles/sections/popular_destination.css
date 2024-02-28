@@ -22,7 +22,7 @@
     margin-left: 50%;
     margin-top: 40px;
 }
-.popular-img-caption {
+.popular-image-caption {
     text-align: left;
     margin-left: 20px;
     margin-top: 20px;
@@ -31,7 +31,7 @@
     line-height: 24px;
     color: var(--color-primary);
 }
-.popular-img-content {
+.popular-image-content {
     text-align: left;
     margin-left: 20px;
     margin-top: 15px;

@@ -1,4 +1,10 @@
-
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
 
 html,
 body,
@@ -99,9 +105,7 @@ section {
 nav ul {
   list-style: none;
 }
-li{
-  list-style: none;
-}
+
 blockquote,
 q {
   quotes: none;
@@ -121,7 +125,6 @@ a {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
-  text-decoration: none;
 }
 
 /* change colours to suit your needs */
