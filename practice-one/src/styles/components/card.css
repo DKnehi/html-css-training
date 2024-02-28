@@ -18,3 +18,34 @@
     text-align: center;
     margin: 0 15px;
 }
+
+.left-box-card1 {
+    margin: 25px;
+}
+
+.left-box-card2 {
+    margin: 25px;
+}
+
+.center-box-card3 {
+    margin: 25px;
+    color: var(--color-light);
+    background-color: var(--color-primary);
+}
+
+.right-box-card4 {
+    margin: 25px;
+    color: var(--color-light);
+    background-color: var(--color-primary);
+}
+
+.right-box-card5 {
+    margin: 25px;
+    color: var(--color-light);
+    background-color: var(--color-primary);
+}
+.right-box-card6 {
+    margin: 25px;
+    color: var(--color-light);
+    background-color: var(--color-primary);
+}

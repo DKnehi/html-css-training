@@ -29,19 +29,10 @@
     margin-left: 7px;
     border-radius: 50% / 38% 38%;
 }
-
-.image-item .img-categories {
-    max-width: 100%;
-    height: auto;
-    transition: opacity 0.3 ease;
-    cursor: pointer;
-}
-
 .experience-ball .image-thom-holmes {
     margin-top: -72px;
     border-radius: 50% / 43% 43%;
 }
-
 .popular-image {
     margin-top: 10px;
 }
