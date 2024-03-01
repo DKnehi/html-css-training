@@ -14,6 +14,7 @@
     background-color: var(--color-btn);
     cursor: pointer;
 }
+
 .popular-btn {
     margin-left: 130px;
     height: 37px;
@@ -34,6 +35,7 @@
     color: var(--color-light);
     background-color: var(--color-primary);
 }
+
 .top-btn {
     width: 92px;
     height: 34px;
@@ -65,24 +67,24 @@
     cursor: pointer;
 }
 
-.header-title-btn:hover {
-    border: none;
-    color: var(--color-btn);
-    background-color: var(--color-primary);
-}
-
 .testimonial-title-btn {
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    border: 1px solid var(--color-primary);
-    background-color: var(--color-light);
     cursor: pointer;
     margin: 0 5px;
 }
 
-.testimonial-title-btn:hover {
-    border: none;
+.left {
+    background-color: var(--color-light);
+    border: 1px solid var(--color-primary);
+}
+
+.right {
     background-color: var(--color-primary);
-    color: var(--color-light);
+    border: none;
+}
+
+.left2 {
+    background-color: #FAF8ED;
 }

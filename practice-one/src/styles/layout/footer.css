@@ -4,18 +4,22 @@ footer {
     display: flex;
     margin-top: 100px;
 }
+
 .footer-left {
     margin-left: 130px;
 }
+
 .footer-left-logobox {
     display: flex;
     align-items: center;
 }
+
 .footer-left-logotext {
     font-weight: var(--font-weight-bold);
     font-size: 20px;
-    color: var( --color-primary);
+    color: var(--color-primary);
 }
+
 .footer-left-text {
     font-weight: var(--font-weight-normal);
     font-size: var(--size-small);
@@ -24,9 +28,11 @@ footer {
     margin-top: 30px;
     margin-bottom: 50px;
 }
+
 .footer-left-list-contact {
     display: flex;
 }
+
 .footer-left-contact {
     width: 32px;
     height: 32px;
@@ -35,12 +41,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--color-text);
     margin-right: 15px;
 }
-.footer-left-contact:hover {
+.facebook {
     border: 1px solid var( --color-second);
-    color: var(--color-second);
 }
 .footer-right {
     margin-left: 300px;
@@ -49,14 +53,17 @@ footer {
     display: flex;
     justify-content: center;
 }
+
 .footer-right-menu {
     margin: 0 40px;
 }
+
 .footer-right-menu-header {
     margin-bottom: 30px;
     font-weight: 500;
     font-size: var(--size-medium);
 }
+
 .footer-right-menu-item {
     font-weight: var(--font-weight-normal);
     font-size: 14px;
