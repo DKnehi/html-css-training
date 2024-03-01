@@ -1,8 +1,8 @@
-header {
+.header {
     position: relative;
     width: 1440px;
 }
-nav {
+.nav {
     display: flex;
     height: 102px;
 }
