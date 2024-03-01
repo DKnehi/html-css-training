@@ -64,6 +64,11 @@
     margin-left: 25px;
 }
 
+.top-destination-image {
+    background: linear-gradient(180deg, rgba(26, 26, 25, 0) 56.79%, rgba(20, 20, 18, 0.9) 102.85%);
+    border-radius: 20px;
+}
+
 .top-destination-image-cap {
     position: absolute;
     margin-top: -70px;
