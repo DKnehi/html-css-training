@@ -3,14 +3,17 @@
     margin-top: 150px;
     width: 1440px;
 }
+
 .popular-texbox {
     margin-left: 135px;
     display: flex;
 }
+
 .popular-title-btnbox {
     margin-left: 660px;
     margin-top: 45px;
 }
+
 .popular-texbox .popular-title-heading {
     font-weight: var(--font-weight-heading-section);
     font-size: var(--size-large);
@@ -18,10 +21,12 @@
     color: var(--color-primary);
     width: 400px;
 }
+
 .popular-texbox .popular-btn-box {
     margin-left: 50%;
     margin-top: 40px;
 }
+
 .popular-image-caption {
     text-align: left;
     margin-left: 20px;
@@ -31,6 +36,7 @@
     line-height: 24px;
     color: var(--color-primary);
 }
+
 .popular-image-content {
     text-align: left;
     margin-left: 20px;
@@ -40,9 +46,11 @@
     line-height: 14px;
     color: var(--color-text);
 }
+
 .price-box {
-    margin-top: 45px;
+    margin-top: 35px;
 }
+
 .price-box .price {
     display: inline;
     font-weight: var(--font-weight-heading-section);
@@ -50,6 +58,7 @@
     line-height: 20px;
     color: var(--color-primary);
 }
+
 .price-person {
     font-weight: var(--font-weight-normal);
     font-size: var(--size-small);

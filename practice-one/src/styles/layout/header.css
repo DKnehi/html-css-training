@@ -2,19 +2,23 @@
     position: relative;
     width: 1440px;
 }
+
 .nav {
     display: flex;
+    justify-content: center;
     height: 102px;
+    width: 1440px;
+    margin-top: 33px;
 }
+
 .logo {
-    position: absolute;
+    margin-top: 10px;
     width: 98px;
     height: 35px;
-    top: 40px;
-    left: 135px;
     display: flex;
     align-items: center;
 }
+
 .logo-text {
     font-weight: 700;
     font-size: 20px;
@@ -23,19 +27,21 @@
     text-align: center;
     color: var(--color-primary);
 }
+
 .menu {
-    position: absolute;
     height: 24px;
-    width: 447px;
-    top: 33px;
-    left: 305px;
+    width: 500px;
+    margin-left: 60px;
+    margin-right: 350px;
 }
-.menu-list{
+
+.menu-list {
     text-align: center;
     display: flex;
 }
-.menu-item{
-    padding: 14px;
+
+.menu-item {
+    padding: 20px;
     text-decoration: none;
     font-weight: var(--font-weight-normal);
     font-size: var(--size-small);
@@ -43,17 +49,19 @@
     color: var(--color-menu);
     position: relative;
     display: inline-block;
-    
+
 }
-.menu-item:hover::after{
+
+.menu-item:hover::after {
     content: "";
-      position: absolute;
-      left: 16px;
-      bottom: 7px;
-      height: 2px; 
-      width: 10px; 
-      background-color: var(--color-second); 
+    position: absolute;
+    left: 21px;
+    bottom: 13px;
+    height: 2px;
+    width: 10px;
+    background-color: var(--color-second);
 }
+
 .text-lovely-places {
     position: absolute;
     width: 577px;
@@ -61,28 +69,32 @@
     top: 176px;
     left: 135px;
 }
+
 .text-lovely-places-heading {
     font-weight: var(--font-weight-bold);
     font-size: 84px;
     line-height: 86px;
     color: var(--color-primary);
 }
+
 .text-content-lovely-places {
     width: 490px;
     margin-top: 20px;
     font-weight: var(--font-weight-normal);
-    font-size: var( --size-medium);
+    font-size: var(--size-medium);
     line-height: 28px;
     color: var(--color-text);
 }
+
 .search-box {
     margin-top: 40px;
     width: 500px;
     height: 76px;
     border-radius: 38px;
     background-color: #FDFEFF;
-    
+
 }
+
 .location {
     position: absolute;
     width: 177px;
@@ -91,20 +103,23 @@
     left: 30px;
     border-right: 1px solid #EAEAEB;
 }
+
 .location-heading {
     margin-top: 4px;
     font-weight: 500;
-    font-size: var( --size-medium);
+    font-size: var(--size-medium);
     line-height: 17px;
     color: var(--color-primary);
 }
+
 .location-title {
     font-weight: 400;
-    font-size: var( --size-very-small);
+    font-size: var(--size-very-small);
     line-height: 12px;
     display: inline;
     color: var(--color-search-box);
 }
+
 .date {
     position: absolute;
     width: 177px;
@@ -112,32 +127,38 @@
     margin-top: 15px;
     left: 250px;
 }
+
 .date-heading {
     margin-top: 4px;
     font-weight: 500;
-    font-size: var( --size-medium);
+    font-size: var(--size-medium);
     line-height: 17px;
     color: var(--color-primary);
 }
+
 .date-title {
     font-weight: var(--font-weight-normal);
-    font-size: var( --size-very-small);
+    font-size: var(--size-very-small);
     line-height: 12px;
     display: inline;
     color: var(--color-search-box);
 }
+
 .search {
     margin-left: 430px;
 }
-.rectangle-4403{
+
+.rectangle-4403 {
     width: 133.36px;
     height: 145.71px;
     background-color: var(--color-light);
     border-radius: 9.88px;
 }
-.rectangle-4404{
+
+.rectangle-4404 {
     height: 88.91px;
 }
+
 .dubai-moruvumi {
     font-weight: 500;
     font-size: 12.35px;
@@ -146,11 +167,13 @@
     margin-top: 10px;
     color: var(--color-primary);
 }
+
 .group-avatar {
-    width: 87.67px;
-    height: 33.34px;
-    margin-left: 21px;
+    display: flex;
+    margin-left: 25px;
+    margin-top: -25px;
 }
+
 .dubai-tag {
     position: absolute;
     margin-left: 95px;
@@ -162,21 +185,24 @@
     display: flex;
     align-items: center;
 }
+
 .dubai-text {
     font-weight: 500;
     font-size: 10.35px;
     line-height: 12.53px;
     margin-left: 5px;
 }
+
 .ball {
     position: absolute;
     width: 469px;
     height: 469px;
-    background-color: var( --color-ball);
+    background-color: var(--color-ball);
     margin-left: 60px;
     border-radius: 50%;
     margin-top: -70px;
 }
+
 .ball-line {
     margin-top: 12px;
     margin-left: 5px;

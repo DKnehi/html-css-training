@@ -1,9 +1,6 @@
 .btn-book-now {
-    position: absolute;
     width: 170px;
     height: 54px;
-    top: 24px;
-    left: 1135px;
     border-radius: 27px;
     border: 1.4px solid var(--color-second);
     color: var(--color-second);
@@ -54,6 +51,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 14px;
+    margin: 25px;
 }
 
 .header-title-btn {
@@ -75,16 +73,16 @@
     margin: 0 5px;
 }
 
-.left {
+.arrowl {
     background-color: var(--color-light);
     border: 1px solid var(--color-primary);
 }
 
-.right {
+.arrowr {
     background-color: var(--color-primary);
     border: none;
 }
 
-.left2 {
+.arrowtl {
     background-color: #FAF8ED;
 }
