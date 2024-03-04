@@ -43,13 +43,14 @@ footer {
     align-items: center;
     margin-right: 15px;
 }
+
 .facebook {
-    border: 1px solid var( --color-second);
+    border: 1px solid var(--color-second);
 }
+
 .footer-right {
     margin-left: 300px;
     width: 754px;
-    height: 200px;
     display: flex;
     justify-content: center;
 }

@@ -18,7 +18,6 @@
 
 .testimonial-contentbox {
     width: 537px;
-    height: 461px;
     margin-left: 150px;
 }
 
@@ -41,7 +40,6 @@
     padding: 25px;
     margin-top: 30px;
     width: 100%;
-    height: 283px;
     border-radius: 14px;
     background-color: var(--color-light);
 }

@@ -6,15 +6,12 @@
 .nav {
     display: flex;
     justify-content: center;
-    height: 102px;
-    width: 1440px;
     margin-top: 33px;
 }
 
 .logo {
     margin-top: 10px;
     width: 98px;
-    height: 35px;
     display: flex;
     align-items: center;
 }
@@ -29,7 +26,6 @@
 }
 
 .menu {
-    height: 24px;
     width: 500px;
     margin-left: 60px;
     margin-right: 350px;
@@ -65,7 +61,6 @@
 .text-lovely-places {
     position: absolute;
     width: 577px;
-    height: 460px;
     top: 176px;
     left: 135px;
 }
@@ -192,7 +187,6 @@
     line-height: 12.53px;
     margin-left: 5px;
 }
-
 .ball {
     position: absolute;
     width: 469px;

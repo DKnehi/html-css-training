@@ -7,7 +7,6 @@
 
 .experience-image {
     width: 541px;
-    height: 582px;
     margin-left: 121px;
     position: absolute;
 }
@@ -15,7 +14,6 @@
 .destination {
     position: absolute;
     width: 140px;
-    height: 218px;
     background-color: var(--color-light);
     margin-top: 260px;
     margin-left: 100px;
@@ -87,7 +85,6 @@
 
 .experience-content {
     width: 538px;
-    height: 514px;
     float: right;
     margin-right: 120px;
     margin-top: 40px;
