@@ -1,0 +1,187 @@
+.header {
+    padding: 0 135px;
+}
+
+.nav {
+    display: flex;
+    padding: 24px 0;
+    justify-content: space-between;
+}
+
+.logo-menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-left: 72px;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-item {
+    font-weight: var(--font-weight-normal);
+    font-size: var(--size-small);
+    line-height: 16px;
+    color: var(--color-menu);
+    position: relative;
+    padding: 0 18px;
+}
+
+.menu-item:hover::after {
+    content: "";
+    position: absolute;
+    left: 19px;
+    bottom: -1px;
+    height: 2px;
+    width: 10px;
+    background-color: var(--color-second);
+}
+
+.hero-section {
+    display: flex;
+}
+
+.text-lovely-places {
+    margin-right: 67px;
+    margin-top: 74px;
+    width: 577px;
+}
+
+.text-lovely-places-heading {
+    font-weight: var(--font-weight-bold);
+    font-size: 84px;
+    line-height: 86px;
+    color: var(--color-primary);
+}
+
+.text-content-lovely-places {
+    width: 490px;
+    margin-top: 26px;
+    font-weight: var(--font-weight-normal);
+    font-size: var(--size-medium);
+    line-height: 28px;
+    color: var(--color-text);
+}
+
+.search-box {
+    margin-top: 44px;
+    width: 500px;
+    height: 76px;
+    border-radius: 38px;
+    background-color: #FDFEFF;
+    display: flex;
+}
+
+.location {
+    margin-top: 20px;
+    margin-left: 28px;
+    width: 137px;
+    height: 50px;
+    margin-right: 68px;
+}
+
+.location-heading {
+    font-weight: 500;
+    font-size: var(--size-medium);
+    line-height: 17px;
+    color: var(--color-primary);
+}
+
+.location-title {
+    font-weight: 400;
+    font-size: var(--size-very-small);
+    line-height: 12px;
+    display: inline;
+    color: var(--color-search-box);
+}
+
+.stick {
+    margin-left: -34px;
+    margin-right: 34px;
+    margin-top: 14px;
+}
+
+.date {
+    margin-top: 20px;
+    width: 137px;
+    height: 50px;
+    margin-right: 57px;
+}
+
+.date-heading {
+    font-weight: 500;
+    font-size: var(--size-medium);
+    line-height: 17px;
+    color: var(--color-primary);
+}
+
+.date-title {
+    font-weight: var(--font-weight-normal);
+    font-size: var(--size-very-small);
+    line-height: 12px;
+    display: inline;
+    color: var(--color-search-box);
+}
+
+.rectangle-4403 {
+    width: 133.36px;
+    height: 145.71px;
+    background-color: var(--color-light);
+    border-radius: 9.88px;
+}
+
+.rectangle-4404 {
+    height: 88.91px;
+}
+
+.dubai-moruvumi {
+    font-weight: 500;
+    font-size: 12.35px;
+    line-height: 14.94px;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--color-primary);
+}
+
+.group-avatar {
+    display: flex;
+    margin-left: 25px;
+    margin-top: -25px;
+}
+
+.dubai-tag {
+    position: absolute;
+    margin-left: 95px;
+    margin-top: 35px;
+    border-radius: 4.94px;
+    width: 55px;
+    height: 26px;
+    background-color: var(--color-light);
+    display: flex;
+    align-items: center;
+}
+
+.dubai-text {
+    font-weight: 500;
+    font-size: 10.35px;
+    line-height: 12.53px;
+    margin-left: 5px;
+}
+
+.ball {
+    position: absolute;
+    width: 469px;
+    height: 469px;
+    background-color: var(--color-ball);
+    margin-left: 60px;
+    border-radius: 50%;
+    margin-top: -70px;
+}
+
+.ball-line {
+    margin-top: 12px;
+    margin-left: 5px;
+}
