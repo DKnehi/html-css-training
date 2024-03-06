@@ -1,12 +1,8 @@
 footer {
-    width: 1440px;
-    height: auto;
     display: flex;
-    margin-top: 100px;
-}
-
-.footer-left {
-    margin-left: 130px;
+    padding: 79px 135px;
+    justify-content: space-between;
+    margin-top: 15px;
 }
 
 .footer-left-logobox {
@@ -25,8 +21,8 @@ footer {
     font-size: var(--size-small);
     color: var(--color-text);
     width: 150px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .footer-left-list-contact {
@@ -49,14 +45,9 @@ footer {
 }
 
 .footer-right {
-    margin-left: 300px;
     width: 754px;
     display: flex;
-    justify-content: center;
-}
-
-.footer-right-menu {
-    margin: 0 40px;
+    justify-content: space-between;
 }
 
 .footer-right-menu-header {

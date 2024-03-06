@@ -1,10 +1,8 @@
 .testimonial {
-    width: 1440px;
-    height: auto;
-    margin-top: 100px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 66px 0;
+    margin-top: 37px;
 }
 
 .testimonial-imagebox {
@@ -14,11 +12,12 @@
     border-radius: 245px;
     scale: crop;
     overflow: hidden;
+    margin-left: 203px;
+    margin-right: 175px;
 }
 
 .testimonial-contentbox {
     width: 537px;
-    margin-left: 150px;
 }
 
 .testimonial-contentbox-rectangle {

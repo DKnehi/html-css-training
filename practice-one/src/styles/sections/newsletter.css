@@ -1,6 +1,6 @@
 .newsletter {
-    width: 1440px;
-    margin-top: 100px;
+    padding: 46px 135px;
+    margin-top: 28px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@
 }
 
 .newsletterbox-heading {
-    margin-top: 60px;
+    margin-top: 75px;
     font-weight: var(--font-weight-heading-section);
     font-size: 40px;
     color: var(--color-primary);
@@ -32,14 +32,14 @@
     font-weight: var(--font-weight-normal);
     font-size: var(--size-small);
     color: var(--color-text);
-    margin: 25px 380px;
+    margin: 16px 380px;
 }
 
 .newsletterbox-input-box {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .newsletterbox-input {
