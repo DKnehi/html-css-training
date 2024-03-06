@@ -1,6 +1,5 @@
 .header {
-    padding: 0 135px;
-    padding-bottom: 53px;
+    padding: 0 135px 53px 135px;
 }
 
 .nav {
@@ -43,10 +42,10 @@
 
 .hero-section {
     display: flex;
+    justify-content: space-between;
 }
 
 .text-lovely-places {
-    margin-right: 67px;
     margin-top: 74px;
     width: 577px;
 }
@@ -138,13 +137,19 @@
     height: 88.91px;
 }
 
+.image-lovely-places {
+    width: 533.75px;
+    height: 555px;
+    margin-top: 10px;
+}
+
 .dubai-moruvumi {
     font-weight: 500;
     font-size: 12.35px;
     line-height: 14.94px;
     text-align: center;
     margin-top: 10px;
-    color: var(--color-primary);
+    color: var(--color-primary)
 }
 
 .group-avatar {
@@ -170,6 +175,11 @@
     font-size: 10.35px;
     line-height: 12.53px;
     margin-left: 5px;
+}
+
+.ball-box {
+    width: 469px;
+    height: 555px;
 }
 
 .ball {

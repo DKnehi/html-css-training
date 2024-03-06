@@ -1,16 +1,22 @@
 .experience {
-    padding: 50px 0;
+    padding: 50px 135px 50px 70px;
     margin-top: 58px;
-    padding-right: 135px;
     display: flex;
+    justify-content: space-between;
+}
+
+.experience-image-box {
+    height: 582px;
+    width: 541px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .experience-image {
-    margin-right: 156px;
-    margin-left: 121px;
-    height: 582px;
+    width: 490px;
+    height: 562px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .experience-image-ball {
@@ -22,12 +28,12 @@
 
 .experience-image-destination {
     position: absolute;
+    margin-top: 257px;
+    margin-right: 407px;
     width: 140px;
     height: 218px;
     background-color: var(--color-light);
     border-radius: 14px;
-    margin-top: 257px;
-    margin-left: 70px;
     padding: 20px 0;
     text-align: center;
 
@@ -49,8 +55,8 @@
 
 .experience-image-customars {
     position: absolute;
-    margin-left: 303px;
-    margin-top: 440px;
+    margin-top: 490px;
+    margin-right: 16px;
     width: 171px;
     height: 92px;
     border-radius: 10px;
@@ -75,6 +81,7 @@
 
 .experience-content {
     margin-top: 60px;
+    width: 538px;
 }
 
 .experience-subtitle {
@@ -82,7 +89,7 @@
     font-size: 20px;
     line-height: 20px;
     color: var(--color-second);
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-align: left;
 }
 
@@ -107,14 +114,13 @@
 .list-echievement {
     margin-top: 40px;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .list-item {
     width: 166px;
     height: 178px;
     background-color: var(--color-light);
-    margin: 0 10px;
     border-radius: 14px;
     text-align: center;
 }
@@ -128,11 +134,11 @@
 }
 
 .list-item-title {
+    margin-top: 18px;
     font-weight: var(--font-weight-normal);
     font-size: 21px;
     line-height: 29px;
     color: #939597;
-    margin-top: 20px;
     width: 90px;
-    margin-left: 30px;
+    margin-left: 20px;
 }

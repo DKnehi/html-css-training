@@ -1,6 +1,6 @@
 .categories-sections {
     margin-top: 79px;
-    padding: 0 135px;
+    padding: 18px 135px 32px 135px;
 }
 
 .categories-title {
@@ -10,7 +10,6 @@
 
 .categories-title-btnbox {
     margin-top: 5px;
-
 }
 
 .categories-title-heading {
@@ -30,14 +29,13 @@
 .categories-slide {
     margin-top: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+
 }
 
 .image-item {
     text-align: center;
-    /* padding: 0 15px; */
     position: relative;
-    padding: 0 15px;
 }
 
 .image-item-caption {

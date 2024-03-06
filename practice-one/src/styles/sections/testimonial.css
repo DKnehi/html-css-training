@@ -1,7 +1,7 @@
 .testimonial {
     display: flex;
-    align-items: center;
-    padding: 66px 0;
+    justify-content: space-between;
+    padding: 66px 135px 66px 203px;
     margin-top: 37px;
 }
 
@@ -12,12 +12,12 @@
     border-radius: 245px;
     scale: crop;
     overflow: hidden;
-    margin-left: 203px;
-    margin-right: 175px;
 }
 
 .testimonial-contentbox {
+    margin-top: 39px;
     width: 537px;
+    height: 461px;
 }
 
 .testimonial-contentbox-rectangle {
@@ -36,9 +36,8 @@
 }
 
 .testimonial-textbox {
-    padding: 25px;
-    margin-top: 30px;
-    width: 100%;
+    padding: 32px;
+    margin-top: 26px;
     border-radius: 14px;
     background-color: var(--color-light);
 }
@@ -47,7 +46,6 @@
     font-weight: var(--font-weight-normal);
     font-size: var(--size-medium);
     color: var(--color-text);
-    width: 95%;
     line-height: 30px;
 }
 
@@ -68,7 +66,7 @@
 }
 
 .testimonial-title-btnbox {
-    margin-left: 230px;
+    margin-left: 210px;
 }
 
 .testimonial-textbox-subname {
