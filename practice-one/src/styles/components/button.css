@@ -12,11 +12,16 @@
     cursor: pointer;
 
 }
+
 .popular-btn {
     margin-left: 130px;
     height: 37px;
     border-radius: 46px;
     width: 100px;
+}
+
+.destination-btn-box {
+    margin-top: 28px;
 }
 
 .destination-btn {
@@ -37,21 +42,7 @@
     width: 92px;
     height: 34px;
     border-radius: 30px;
-    margin: 20px 5px;
-}
-
-.top-destination-image-btn {
-    position: absolute;
-    width: 42px;
-    height: 24px;
-    border-radius: 12px;
-    background-color: var(--color-light);
-    border: 0px;
-    color: var(--color-primary);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 14px;
-    margin: 25px;
+    margin: 0 7px;
 }
 
 .header-title-btn {

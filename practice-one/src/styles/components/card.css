@@ -9,6 +9,7 @@
 .popular-list-card {
     display: flex;
     margin-top: 35px;
+    justify-content: space-between;
 }
 
 .popular-card {
@@ -17,7 +18,6 @@
     border-radius: 16px;
     border: 2px solid var(--color-light);
     text-align: center;
-    margin: 0 15px;
 }
 
 .left-box-card1 {
