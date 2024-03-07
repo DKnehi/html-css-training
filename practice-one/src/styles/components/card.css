@@ -9,7 +9,7 @@
 .popular-list-card {
     display: flex;
     margin-top: 35px;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .popular-card {

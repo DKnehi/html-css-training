@@ -1,4 +1,3 @@
-
 .image-young-man {
     position: absolute;
     margin-top: -87px;
@@ -29,4 +28,10 @@
     height: 252px;
     border-radius: 16px;
     margin: 10px 10px;
+}
+
+.popular-image-roma {
+    width: 362px;
+    height: 252px;
+    border-radius: 16px;
 }
