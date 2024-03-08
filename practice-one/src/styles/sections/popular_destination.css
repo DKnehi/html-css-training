@@ -4,6 +4,8 @@
 }
 
 .popular-texbox {
+    align-items: center;
+    padding-right: 135px;
     display: flex;
     justify-content: space-between;
 }
