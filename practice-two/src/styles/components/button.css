@@ -1,0 +1,12 @@
+.button-all {
+    border: none;
+    cursor: pointer;
+    background-color: var(--color-btn);
+    color: var(--color-second);
+}
+
+.menu-button {
+    padding: 10px 20px;
+    font-size: 0.875rem;
+    border-radius: var(--boder-radius-communication);
+}

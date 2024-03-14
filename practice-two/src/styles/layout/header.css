@@ -1,0 +1,68 @@
+.header {
+    padding: 35px 20px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../assets/images/hero-section/header-image.png);
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger {
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.menu-lists {
+    display: none;
+}
+
+.menu-lists-active {
+    padding: 10px 20px;
+    display: block;
+    border-radius: var(--boder-radius-to-all);
+    background-color: var(--color-btn);
+}
+
+.menu-item {
+    font-size: 0.875rem;
+    line-height: 30px;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+}
+
+.menu-item:hover {
+    color: var(--color-second);
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: 35px 40px;
+        background-image: url(../../assets/images/hero-section/header-image.png);
+    }
+
+    .menu-header {
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .menu-lists {
+        margin-right: 40px;
+        gap: 40px;
+        display: flex;
+    }
+
+    .menu-lists-active {
+        background: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    .header {
+        padding: 35px 122px;
+    }
+}
