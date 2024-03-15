@@ -3,10 +3,23 @@
     cursor: pointer;
     background-color: var(--color-btn);
     color: var(--color-second);
+    border-radius: var(--boder-radius-to-all);
 }
 
+/* start-header */
 .menu-button {
     padding: 10px 20px;
     font-size: 0.875rem;
     border-radius: var(--boder-radius-communication);
 }
+
+/* end-header */
+
+/* start-hero-section */
+.hero-section-button {
+    padding: 15.5px 18.4px;
+    font-size: 0.875rem;
+    letter-spacing: 0.2px;
+    font-weight: var(--font-weight-bold);
+}
+/* end-hero-section */

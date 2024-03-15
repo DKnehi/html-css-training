@@ -1,6 +1,8 @@
+/* mobile-version */
 .header {
-    padding: 35px 20px;
+    padding: 35px 20px 84.15px 20px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../assets/images/hero-section/header-image.png);
+    background-repeat: no-repeat;
 }
 
 .menu-header {
@@ -18,15 +20,16 @@
 }
 
 .menu-lists-active {
-    padding: 10px 20px;
+    padding: 5px 10px;
     display: block;
     border-radius: var(--boder-radius-to-all);
     background-color: var(--color-btn);
+    position: absolute;
 }
 
 .menu-item {
     font-size: 0.875rem;
-    line-height: 30px;
+    line-height: 23px;
     font-weight: var(--font-weight-bold);
     color: var(--color-primary);
 }
@@ -35,9 +38,10 @@
     color: var(--color-second);
 }
 
+/* tablet-version */
 @media (min-width: 768px) {
     .header {
-        padding: 35px 40px;
+        padding: 35px 40px 127px 40px;
         background-image: url(../../assets/images/hero-section/header-image.png);
     }
 
@@ -54,6 +58,7 @@
         margin-right: 40px;
         gap: 40px;
         display: flex;
+        position: relative;
     }
 
     .menu-lists-active {
@@ -61,8 +66,9 @@
     }
 }
 
+/* desktop-version */
 @media (min-width: 1025px) {
     .header {
-        padding: 35px 122px;
+        padding: 35px 122px 148px 122px;
     }
 }
