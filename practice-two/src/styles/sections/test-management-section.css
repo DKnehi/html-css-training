@@ -1,0 +1,94 @@
+/* mobile-version */
+.test-management-section {
+    margin-top: 90px;
+    text-align: center;
+    background-color: rgba(248, 70, 70, 1);
+}
+
+.test-management-section-contentbox {
+    padding: 50px 20px 0px 20px;
+}
+
+.test-management-section-heading {
+    font-size: 2.25rem;
+    line-height: 2.9375rem;
+    font-weight: var(--font-weight-bolder);
+    color: var(--color-second);
+}
+
+.test-management-section-subheading {
+    margin-top: 10px;
+    font-size: 0.875rem;
+    font-weight: var(--font-weight-normal);
+    color: var(--color-second);
+}
+
+.test-management-section-lists-content {
+    padding: 0 96px 84px 96px;
+    margin-top: 55px;
+}
+
+.test-management-section-lists-content-heading {
+    margin-bottom: 40px;
+    font-size: 1.125rem;
+    line-height: 1.536875rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-second);
+}
+
+.test-management-section-lists-content-arrow {
+    margin-bottom: 40px;
+}
+
+/* tablet-version */
+@media (min-width: 768px) {
+    .test-management-section {
+        margin-top: 130px;
+    }
+
+    .test-management-section-contentbox {
+        padding-top: 35px;
+    }
+
+    .test-management-section-heading {
+        font-size: 3rem;
+    }
+
+    .test-management-section-subheading {
+        margin-top: 25px;
+        font-size: 1.125rem;
+    }
+
+    .test-management-section-lists-content {
+        padding: 0 61px 78px 61px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .test-management-section-lists-content-heading {
+        width: 150px;
+        margin: 0px;
+        font-size: 0.875rem;
+        text-align: left;
+    }
+
+    .test-management-section-lists-content-arrow {
+        margin: 0;
+        width: 32px;
+        height: 32px;
+        transform: rotate(-90deg);
+    }
+}
+
+/* desktop-version */
+@media (min-width: 1025px) {
+
+    .test-management-section-contentbox {
+        padding-top: 68px;
+    }
+
+    .test-management-section-lists-content {
+        padding: 0 176px 78px 176px;
+    }
+}

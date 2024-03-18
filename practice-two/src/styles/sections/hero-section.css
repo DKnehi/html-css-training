@@ -27,6 +27,7 @@
     margin-top: 43px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-radius: var(--boder-radius-to-all);
     background-color: var(--color-second);
 }
