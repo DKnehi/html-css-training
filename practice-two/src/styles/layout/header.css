@@ -17,19 +17,21 @@
 
 .menu-lists {
     display: none;
+    opacity: 5s;
 }
 
 .menu-lists-active {
     padding: 5px 10px;
     display: block;
-    border-radius: var(--boder-radius-to-all);
-    background-color: var(--color-btn);
     position: absolute;
+    border-radius: var(--boder-radius-to-all);
+    backdrop-filter: blur(10px);
+
 }
 
 .menu-item {
     font-size: 0.875rem;
-    line-height: 23px;
+    line-height: 30px;
     font-weight: var(--font-weight-bold);
     color: var(--color-primary);
 }

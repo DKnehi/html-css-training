@@ -1,0 +1,79 @@
+.references-section {
+    margin-top: 80px;
+    text-align: center;
+    background: rgba(244, 245, 247, 1);
+
+}
+
+.references-section-contentbox {
+    padding: 40px 21px 0 21px;
+}
+
+.references-section-heading {
+    font-size: 2.25rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+}
+
+.references-section-subheading {
+    margin-top: 14px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: rgba(24, 25, 31, 1);
+}
+
+.references-section-list-content {
+    margin-top: 40px;
+    padding: 0 102.5px;
+    row-gap: 24px;
+    display: grid;
+    place-items: center;
+
+}
+
+.references-section-list {
+    display: grid;
+    row-gap: 24px;
+}
+
+.references-section-list-contentbox {
+    width: 170px;
+    height: 96px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+    .references-section {
+        margin-top: 160px;
+    }
+
+    .references-section-contentbox {
+        padding-top: 45px;
+    }
+
+    .references-section-heading {
+        font-size: 3rem;
+    }
+
+    .references-section-subheading {
+        font-size: 1.125rem;
+
+    }
+
+    .references-section-list-content {
+        margin-top: 48px;
+        padding: 0 38.5px;
+        display: flex;
+        gap: 24px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .references-section-list-content {
+        padding: 0 247px;
+    }
+}

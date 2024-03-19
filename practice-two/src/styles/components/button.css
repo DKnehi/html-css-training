@@ -22,4 +22,26 @@
     letter-spacing: 0.2px;
     font-weight: var(--font-weight-bold);
 }
+
 /* end-hero-section */
+
+/* start-quality-section */
+.section-button {
+    padding: 12px 147px;
+    margin-top: 40px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .section-button {
+        margin-top: 46px;
+        padding: 12px 58px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .section-button {
+        margin-top: 80px;
+    }
+}
