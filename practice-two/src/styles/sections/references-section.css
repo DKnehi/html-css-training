@@ -1,3 +1,4 @@
+/* mobile-version */
 .references-section {
     margin-top: 80px;
     text-align: center;
@@ -18,13 +19,13 @@
 .references-section-subheading {
     margin-top: 14px;
     font-size: 0.875rem;
-    font-weight: 500;
+    font-weight: var(--font-weight-nomaler);
     color: rgba(24, 25, 31, 1);
 }
 
 .references-section-list-content {
     margin-top: 40px;
-    padding: 0 102.5px;
+    padding: 0 102.5px 40px 102.5px;
     row-gap: 24px;
     display: grid;
     place-items: center;
@@ -46,6 +47,7 @@
     background-color: white;
 }
 
+/* tablet-version */
 @media (min-width: 768px) {
     .references-section {
         margin-top: 160px;
@@ -66,14 +68,20 @@
 
     .references-section-list-content {
         margin-top: 48px;
-        padding: 0 38.5px;
-        display: flex;
+        padding: 0 38.5px 73px 38.5px;
         gap: 24px;
+        display: flex;
+        justify-content: center;
     }
 }
 
+/* desktop-version */
 @media (min-width: 1025px) {
+    .references-section-contentbox {
+        padding-top: 59px;
+    }
+
     .references-section-list-content {
-        padding: 0 247px;
+        padding-bottom: 59px;
     }
 }

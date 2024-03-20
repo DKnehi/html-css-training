@@ -16,28 +16,30 @@
 }
 
 .menu-lists {
-    display: none;
-    opacity: 5s;
+    position: absolute;
+    transform: translateX(-300px);
 }
 
 .menu-lists-active {
-    padding: 5px 10px;
-    display: block;
-    position: absolute;
-    border-radius: var(--boder-radius-to-all);
-    backdrop-filter: blur(10px);
-
+    margin-left: -20px;
+    border-radius: 10px;
+    width: 100%;
+    transform: translateX(0);
+    transition: 1s ease;
+    background-color: white;
+    text-align: center;
+    filter: blur(0);
 }
 
 .menu-item {
     font-size: 0.875rem;
-    line-height: 30px;
+    line-height: 50px;
     font-weight: var(--font-weight-bold);
     color: var(--color-primary);
 }
 
 .menu-item:hover {
-    color: var(--color-second);
+    color: var(--color-btn);
 }
 
 /* tablet-version */
