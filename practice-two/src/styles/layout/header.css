@@ -28,7 +28,6 @@
     transition: 1s ease;
     background-color: white;
     text-align: center;
-    filter: blur(0);
 }
 
 .menu-item {
@@ -63,6 +62,7 @@
         gap: 40px;
         display: flex;
         position: relative;
+        transform: translateX(0);
     }
 
     .menu-lists-active {

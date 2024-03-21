@@ -5,6 +5,11 @@
     text-align: center;
 }
 
+.section-image {
+    width: 504px;
+    max-width: 100%;
+}
+
 .section-heading {
     margin-top: 30px;
     font-size: 2.25rem;
@@ -35,10 +40,6 @@
         order: 1;
     }
 
-    .section-image {
-        width: 424px;
-    }
-
     .section-contentbox {
         width: 418px;
     }
@@ -55,10 +56,6 @@
     .section {
         margin-top: 160px;
         padding: 0 122px;
-    }
-
-    .section-image {
-        width: 504px;
     }
 
     .section-contentbox {

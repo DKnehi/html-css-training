@@ -3,6 +3,7 @@
     margin-top: 80px;
     text-align: center;
     background: rgba(244, 245, 247, 1);
+    max-width: 100%;
 
 }
 
@@ -24,28 +25,23 @@
 }
 
 .references-section-list-content {
-    margin-top: 40px;
-    padding: 0 102.5px 40px 102.5px;
-    row-gap: 24px;
+    padding: 40px 0;
     display: grid;
     place-items: center;
-
-}
-
-.references-section-list {
-    display: grid;
-    row-gap: 24px;
 }
 
 .references-section-list-contentbox {
+    margin-top: 24px;
     width: 170px;
     height: 96px;
     border-radius: 16px;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
 }
+
+
 
 /* tablet-version */
 @media (min-width: 768px) {
@@ -67,11 +63,8 @@
     }
 
     .references-section-list-content {
-        margin-top: 48px;
-        padding: 0 38.5px 73px 38.5px;
-        gap: 24px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
 }
 
@@ -82,6 +75,6 @@
     }
 
     .references-section-list-content {
-        padding-bottom: 59px;
+        padding: 48px 247px 59px 180px;
     }
 }
