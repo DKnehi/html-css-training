@@ -31,6 +31,7 @@
     margin-top: 40px;
     font-size: 0.875rem;
     font-weight: 600;
+    max-width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -64,4 +65,5 @@
         font-size: 1.5rem;
     }
 }
+
 /* end-contact-section */
