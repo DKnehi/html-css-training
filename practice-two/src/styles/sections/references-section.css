@@ -53,6 +53,11 @@
         padding-top: 45px;
     }
 
+    .references-section-list-contentbox {
+        max-width: 170px;
+        width: 100%;
+    }
+
     .references-section-heading {
         font-size: 3rem;
     }
@@ -73,5 +78,8 @@
 @media (min-width: 1025px) {
     .references-section-contentbox {
         padding-top: 59px;
+    }
+    .references-section-list-contentbox {
+        width: 170px;
     }
 }
