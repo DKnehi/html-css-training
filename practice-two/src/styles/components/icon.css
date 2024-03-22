@@ -1,7 +1,9 @@
+/* start-header */
 .burger-icon {
     width: 32px;
     height: 32px;
 }
+/* end-header */
 
 /* start-test-management-section */
 .test-management-section-lists-content-arrow {
@@ -31,7 +33,9 @@
 
 /* end-contact-section */
 
+/* start-footer */
 .footer-social-icon {
     width: 32px;
     height: 32px;
 }
+/* end-footer */
