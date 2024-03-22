@@ -4,11 +4,6 @@
     row-gap: 80px;
 }
 
-.process-management-section-card {
-    width: 298px;
-    height: 205px;
-}
-
 @media (min-width: 768px) {
     .process-management-section-cardbox {
         grid-template-columns: repeat(2, 1fr);
