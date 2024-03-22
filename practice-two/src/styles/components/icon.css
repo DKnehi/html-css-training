@@ -1,6 +1,13 @@
+.burger-icon {
+    width: 32px;
+    height: 32px;
+}
+
 /* start-test-management-section */
 .test-management-section-lists-content-arrow {
     margin-bottom: 40px;
+    width: 36px;
+    height: 36px;
 }
 
 @media (min-width: 768px) {
@@ -11,6 +18,7 @@
         transform: rotate(-90deg);
     }
 }
+
 /* end-test-management-section */
 
 /* start-contact-section */
@@ -20,4 +28,10 @@
         height: 120px;
     }
 }
+
 /* end-contact-section */
+
+.footer-social-icon {
+    width: 32px;
+    height: 32px;
+}

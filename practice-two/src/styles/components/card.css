@@ -4,17 +4,22 @@
     row-gap: 80px;
 }
 
+.process-management-section-card {
+    width: 298px;
+    height: 205px;
+}
+
 @media (min-width: 768px) {
     .process-management-section-cardbox {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .process-management-section-actcard {
+    .actcard {
         grid-row: 2 / 2;
         grid-column: 1 / 2;
     }
 
-    .process-management-section-bsncard {
+    .bsncard {
         grid-row: 3 / 4;
         grid-column: 1 / 2;
     }
@@ -25,16 +30,17 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .process-management-section-actcard {
+    .actcard {
         grid-row: 1 / 2;
         grid-column: 2 / 3;
     }
 
-    .process-management-section-bsncard {
+    .bsncard {
         grid-row: 1 / 2;
         grid-column: 3 / 4;
     }
 }
+
 /* end-process-management-section */
 
 /* start-references-section */
@@ -67,9 +73,11 @@
         width: 100%;
     }
 }
+
 @media (min-width: 1025px) {
     .references-section-list-contentbox {
         width: 170px;
     }
 }
+
 /* end-references-section */

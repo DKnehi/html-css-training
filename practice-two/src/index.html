@@ -4,8 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bilgi Teknolojilerinde
+    23 Yıllık Tecrübe">
+    <meta property="og:url" content="https://practice-two-seven.vercel.app/">
+    <meta property="og:image" content="../src/assets/images/logo/logo.png">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="icon" href="/src/assets/images/logo/logo.png" />
+    <link rel="preload" fetchpriority="high" as="image" href="./assets/images/quality-section/quality.png" type="image/webp">
+  <link rel="preload" fetchpriority="high" as="image" href="./assets/images/analysis-section/analysis.png" type="image/webp">
     <title>Technology</title>
 </head>
 
@@ -16,7 +22,7 @@
             <div class="menu-header">
                 <nav class="navbar">
                     <div class="burger">
-                        <img src="./assets/images/header/burger.svg" alt="burger">
+                        <img class="burger-icon" src="./assets/images/header/burger.svg" alt="burger">
                     </div>
                     <ul class="menu-lists">
                         <li>
@@ -74,22 +80,22 @@
                     uzman kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
             </div>
             <div class="process-management-section-cardbox">
-                <div class="process-management-section-dcmcard">
+                <div class="process-management-section-card dcmcard">
                     <img src="./assets/images/process-management-section/Document-Analysis.png" alt="document">
                 </div>
-                <div class="process-management-section-actcard">
+                <div class="process-management-section-card actcard">
                     <img src="./assets/images/process-management-section/Acceptance-Evaluation.png" alt="acceptance">
                 </div>
-                <div class="process-management-section-bsncard">
+                <div class="process-management-section-card bsncard">
                     <img src="./assets/images/process-management-section/Business-Rules-Analysis.png" alt="business">
                 </div>
-                <div class="process-management-section-fdcard">
+                <div class="process-management-section-card fdcard">
                     <img src="./assets/images/process-management-section/Flow-Diagrams.png" alt="diagram">
                 </div>
-                <div class="process-management-section-sacard">
+                <div class="process-management-section-card sacard">
                     <img src="./assets/images/process-management-section/Stakeholder-Analysis.png" alt="analysis">
                 </div>
-                <div class="process-management-section-ptcard">
+                <div class="process-management-section-card ptcard">
                     <img src="./assets/images/process-management-section/Prototype.png" alt="prototype">
                 </div>
             </div>
@@ -281,12 +287,12 @@
             </div>
             <div class="footer-socialbox">
                 <div class="footer-social">
-                    <a href="javascript:void(0)"><img src="./assets/images/footer/MediumLogo.svg" alt="medium"></a>
-                    <a href="javascript:void(0)"><img src="./assets/images/footer/LinkedinLogo.svg" alt="linkedin"></a>
-                    <a href="javascript:void(0)"><img src="./assets/images/footer/TwitterLogo.svg" alt="twitter"></a>
-                    <a href="javascript:void(0)"><img src="./assets/images/footer/InstagramLogo.svg"
+                    <a class="footer-social-icon" href="javascript:void(0)"><img src="./assets/images/footer/MediumLogo.svg" alt="medium"></a>
+                    <a class="footer-social-icon" href="javascript:void(0)"><img src="./assets/images/footer/LinkedinLogo.svg" alt="linkedin"></a>
+                    <a class="footer-social-icon"href="javascript:void(0)"><img src="./assets/images/footer/TwitterLogo.svg" alt="twitter"></a>
+                    <a class="footer-social-icon"href="javascript:void(0)"><img src="./assets/images/footer/InstagramLogo.svg"
                             alt="instagram"></a>
-                    <a href="javascript:void(0)"><img src="./assets/images/footer/FacebookLogo.svg" alt="facebook"></a>
+                    <a class="footer-social-icon"href="javascript:void(0)"><img src="./assets/images/footer/FacebookLogo.svg" alt="facebook"></a>
                 </div>
                 <div class="footer-coppy">
                     <h2 class="footer-coppy-text">© Copyright 2010-2021 - Can Çevik</h2>
@@ -296,9 +302,6 @@
         </footer>
         <!-- end-footer -->
     </div>
-
-
-
     <script>
         const burger = document.querySelector('.burger');
         const menuLists = document.querySelector('.menu-lists');
