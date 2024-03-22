@@ -1,0 +1,75 @@
+/* start-process-management-section */
+.process-management-section-cardbox {
+    display: grid;
+    row-gap: 80px;
+}
+
+@media (min-width: 768px) {
+    .process-management-section-cardbox {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .process-management-section-actcard {
+        grid-row: 2 / 2;
+        grid-column: 1 / 2;
+    }
+
+    .process-management-section-bsncard {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+    }
+}
+
+@media (min-width: 1025px) {
+    .process-management-section-cardbox {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .process-management-section-actcard {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+
+    .process-management-section-bsncard {
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+    }
+}
+/* end-process-management-section */
+
+/* start-references-section */
+.references-section-list-content {
+    padding: 40px 0;
+    display: grid;
+    place-items: center;
+}
+
+.references-section-list-contentbox {
+    margin-top: 24px;
+    width: 170px;
+    height: 96px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .references-section-list-content {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .references-section-list-contentbox {
+        max-width: 170px;
+        width: 100%;
+    }
+}
+@media (min-width: 1025px) {
+    .references-section-list-contentbox {
+        width: 170px;
+    }
+}
+/* end-references-section */

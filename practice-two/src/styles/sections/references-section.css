@@ -24,25 +24,6 @@
     color: rgba(24, 25, 31, 1);
 }
 
-.references-section-list-content {
-    padding: 40px 0;
-    display: grid;
-    place-items: center;
-}
-
-.references-section-list-contentbox {
-    margin-top: 24px;
-    width: 170px;
-    height: 96px;
-    border-radius: 16px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
 /* tablet-version */
 @media (min-width: 768px) {
     .references-section {
@@ -53,11 +34,6 @@
         padding-top: 45px;
     }
 
-    .references-section-list-contentbox {
-        max-width: 170px;
-        width: 100%;
-    }
-
     .references-section-heading {
         font-size: 3rem;
     }
@@ -66,20 +42,11 @@
         font-size: 1.125rem;
 
     }
-
-    .references-section-list-content {
-        display: flex;
-        justify-content: center;
-        gap: 24px;
-    }
 }
 
 /* desktop-version */
 @media (min-width: 1025px) {
     .references-section-contentbox {
         padding-top: 59px;
-    }
-    .references-section-list-contentbox {
-        width: 170px;
     }
 }

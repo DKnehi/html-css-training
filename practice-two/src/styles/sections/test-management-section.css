@@ -36,10 +36,6 @@
     color: var(--color-second);
 }
 
-.test-management-section-lists-content-arrow {
-    margin-bottom: 40px;
-}
-
 /* tablet-version */
 @media (min-width: 768px) {
     .test-management-section {
@@ -71,13 +67,6 @@
         margin: 0px;
         font-size: 0.875rem;
         text-align: left;
-    }
-
-    .test-management-section-lists-content-arrow {
-        margin: 0;
-        width: 32px;
-        height: 32px;
-        transform: rotate(-90deg);
     }
 }
 
