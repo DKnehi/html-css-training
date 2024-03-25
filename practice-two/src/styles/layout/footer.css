@@ -10,7 +10,7 @@
 
 .footer-menu-heading {
     font-size: var(--font-size-small);
-    line-height: 1.5rem;
+    line-height: 24px;
     font-weight: var(--font-weight-bold);
     color: var(--color-while);
 }
@@ -21,7 +21,7 @@
 
 .footer-menu-item {
     font-size: var(--font-size-small);
-    line-height: 2rem;
+    line-height: 32px;
     font-weight: var(--font-weight-normal);
     color: var(--color-while);
 }

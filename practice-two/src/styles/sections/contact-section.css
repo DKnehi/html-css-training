@@ -14,7 +14,7 @@
 .contact-section-subheading {
     margin-top: 12px;
     font-size: var(--font-size-smaller);
-    line-height: 1.5625rem;
+    line-height: 25px;
     font-weight: 500;
     color: var( --color-black);
 }

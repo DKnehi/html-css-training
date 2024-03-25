@@ -8,7 +8,7 @@
 .section-heading {
     margin-top: 30px;
     font-size: var(--font-size-larger);
-    line-height: 2.59375rem;
+    line-height: 41.5px;
     font-weight: var(--font-weight-bold);
     color: var(--color-mine-shaft);
 }
@@ -16,7 +16,7 @@
 .section-subheading {
     margin-top: 20px;
     font-size: var(--font-size-smaller);
-    line-height: 1.78125rem;
+    line-height: 28.5px;
     font-weight: var(--font-weight-normal);
     color: var(--color-gray);
 }
@@ -35,7 +35,7 @@
     .section-heading {
         margin: 0;
         font-size: 58px;
-        line-height: 3.71875rem;
+        line-height: 59.5px;
     }
 }
 
@@ -49,13 +49,13 @@
 
     .section-heading {
         font-size: var(--font-size-xxxlarge);
-        line-height: 4.75rem;
+        line-height: 76px;
     }
 
     .section-subheading {
         margin-top: 40px;
         font-size: var(--font-size-small);
-        line-height: 2rem;
+        line-height: 32px;
     }
 
 }
