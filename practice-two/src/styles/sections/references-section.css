@@ -2,7 +2,7 @@
 .references-section {
     margin-top: 80px;
     text-align: center;
-    background: rgba(244, 245, 247, 1);
+    background: var(--color-athens-gray);
     max-width: 100%;
 
 }
@@ -12,16 +12,16 @@
 }
 
 .references-section-heading {
-    font-size: 2.25rem;
+    font-size: var(--font-size-larger);
     font-weight: var(--font-weight-bold);
-    color: var(--color-primary);
+    color: var(--color-black);
 }
 
 .references-section-subheading {
     margin-top: 14px;
-    font-size: 0.875rem;
+    font-size: var(--font-size-smaller);
     font-weight: var(--font-weight-nomaler);
-    color: rgba(24, 25, 31, 1);
+    color: var(--color-woodsmoke);
 }
 
 /* tablet-version */
@@ -35,11 +35,11 @@
     }
 
     .references-section-heading {
-        font-size: 3rem;
+        font-size: var( --font-size-xlarge);
     }
 
     .references-section-subheading {
-        font-size: 1.125rem;
+        font-size: var(--font-size-xsmall);
 
     }
 }

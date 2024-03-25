@@ -1,7 +1,7 @@
 /* mobile-version */
 .footer {
     padding: 80px 96.39px 77px 20px;
-    background-color: rgba(248, 70, 74, 1);
+    background-color: var(--color-sunset-orange);
 }
 
 .footer-menu {
@@ -9,10 +9,10 @@
 }
 
 .footer-menu-heading {
-    font-size: 1rem;
+    font-size: var(--font-size-small);
     line-height: 1.5rem;
     font-weight: var(--font-weight-bold);
-    color: var(--color-second);
+    color: var(--color-while);
 }
 
 .footer-menu-listbox {
@@ -20,10 +20,10 @@
 }
 
 .footer-menu-item {
-    font-size: 1rem;
+    font-size: var(--font-size-small);
     line-height: 2rem;
     font-weight: var(--font-weight-normal);
-    color: var(--color-second);
+    color: var(--color-while);
 }
 
 .footer-socialbox {
@@ -41,9 +41,9 @@
 }
 
 .footer-coppy-text {
-    font-size: 1rem;
+    font-size: var(--font-size-small);
     font-weight: var(--font-weight-normal);
-    color: var(--color-second);
+    color: var(--color-while);
 }
 
 /* tablet-version */

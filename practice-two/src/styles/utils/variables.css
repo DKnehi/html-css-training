@@ -1,13 +1,26 @@
 :root {
-    --color-primary: rgba(0, 0, 0, 1);
-    --color-second: rgba(255, 255, 255, 1);
-    --color-text: rgba(128, 128, 128, 1);
-    --color-btn: rgba(248, 70, 70, 1);
-    --color-heading-quality-analysis: rgba(46, 46, 46, 1);
-    --color-heading: rgba(46, 46, 46, 2);
+    --color-black: rgba(0, 0, 0, 1);
+    --color-while: rgba(255, 255, 255, 1);
+    --color-gray: rgba(128, 128, 128, 1);
+    --color-sunset-orange: rgba(248, 70, 70, 1);
+    --color-mine-shaft: rgba(46, 46, 46, 1);
+    --color-woodsmoke: rgba(24, 25, 31, 1);
+    --color-athens-gray: rgba(244, 245, 247, 1);
 
     --boder-radius-to-all: 8px;
     --boder-radius-communication: 5px;
+
+    --font-size-smallest: 12px;
+    --font-size-smaller: 14px;
+    --font-size-small: 16px;
+    --font-size-xsmall: 18px;
+    --font-size-medium: 20px;
+    --font-size-largest: 24px;
+    --font-size-larger: 36px;
+    --font-size-large: 42px;
+    --font-size-xlarge: 48px;
+    --font-size-xxlarge: 56px;
+    --font-size-xxxlarge: 64px;
 
     --font-weight-normal: 400;
     --font-weight-nomaler: 500;

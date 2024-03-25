@@ -1,15 +1,15 @@
 .button-all {
     border: none;
     cursor: pointer;
-    background-color: var(--color-btn);
-    color: var(--color-second);
+    background-color: var(--color-sunset-orange);
+    color: var(--color-while);
     border-radius: var(--boder-radius-to-all);
 }
 
 /* start-header */
 .menu-button {
     padding: 10px 20px;
-    font-size: 0.875rem;
+    font-size: var(--font-size-smaller);
     border-radius: var(--boder-radius-communication);
 }
 
@@ -18,7 +18,7 @@
 /* start-hero-section */
 .hero-section-button {
     padding: 15.5px 18.4px;
-    font-size: 0.875rem;
+    font-size: var(--font-size-smaller);
     letter-spacing: 0.2px;
     font-weight: var(--font-weight-bold);
 }
@@ -29,7 +29,7 @@
 .section-button {
     padding: 12px 147px;
     margin-top: 40px;
-    font-size: 0.875rem;
+    font-size: var(--font-size-smaller);
     font-weight: 600;
     max-width: 100%;
 }
@@ -53,16 +53,16 @@
 .contact-section-button {
     margin-top: 20px;
     padding: 11px 20.5px;
-    font-size: 1rem;
+    font-size: var(--font-size-small);
     font-weight: 600;
-    color: var(--color-second);
 }
 
 @media (min-width: 768px) {
     .contact-section-button {
         margin-top: 30px;
         padding: 25px 40px;
-        font-size: 1.5rem;
+        font-size: var(--font-size-largest);
     }
 }
+
 /* end-contact-section */

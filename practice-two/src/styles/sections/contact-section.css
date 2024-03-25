@@ -6,17 +6,17 @@
 
 .contact-section-heading {
     margin-top: 20px;
-    font-size: 2.25rem;
+    font-size: var(--font-size-larger);
     font-weight: var(--font-weight-bolder);
-    color: var(--color-primary);
+    color: var( --color-black);
 }
 
 .contact-section-subheading {
     margin-top: 12px;
-    font-size: 0.875rem;
+    font-size: var(--font-size-smaller);
     line-height: 1.5625rem;
     font-weight: 500;
-    color: var(--color-primary);
+    color: var( --color-black);
 }
 
 /* tablet-version */
@@ -28,11 +28,11 @@
 
     .contact-section-heading {
         margin-top: 10px;
-        font-size: 3rem;
+        font-size: var( --font-size-xlarge);
     }
 
     .contact-section-subheading {
         margin-top: 20px;
-        font-size: 1.125rem;
+        font-size: var(--font-size-xsmall);
     }
 }

@@ -31,14 +31,14 @@
 }
 
 .menu-item {
-    font-size: 0.875rem;
+    font-size: var(--font-size-smaller);
     line-height: 50px;
     font-weight: var(--font-weight-bold);
-    color: var(--color-primary);
+    color: var(--color-black);
 }
 
 .menu-item:hover {
-    color: var(--color-btn);
+    color: var(--color-sunset-orange);
 }
 
 /* tablet-version */

@@ -7,18 +7,18 @@
 }
 
 .hero-section-heading {
-    font-size: 2.625rem;
+    font-size: var(--font-size-large);
     line-height: 3.59375rem;
     font-weight: var(--font-weight-bolder);
-    color: var(--color-primary);
+    color: var(--color-black);
 }
 
 .hero-section-subheading {
     margin-top: 30px;
-    font-size: 0.75rem;
+    font-size: var(--font-size-smallest);
     line-height: 1.4375rem;
     font-weight: var(--font-weight-normal);
-    color: var(--color-primary);
+    color: var(--color-black);
 }
 
 .hero-section-inputbox {
@@ -29,7 +29,7 @@
     justify-content: space-between;
     align-items: center;
     border-radius: var(--boder-radius-to-all);
-    background-color: var(--color-second);
+    background-color: var(--color-while);
 }
 
 .hero-section-input {
@@ -46,12 +46,12 @@
     }
 
     .hero-section-heading {
-        font-size: 3.5rem;
+        font-size: var(--font-size-xxlarge);
         line-height: 4.59375rem;
     }
 
     .hero-section-subheading {
-        font-size: 1rem;
+        font-size: var(--font-size-small);
         line-height: 2rem;
         margin-top: 20px;
     }
@@ -68,12 +68,12 @@
     }
 
     .hero-section-heading {
-        font-size: 4rem;
+        font-size: var(--font-size-xxxlarge);
         line-height: 5.125rem;
     }
 
     .hero-section-subheading {
-        font-size: 1.25rem;
+        font-size: var(--font-size-medium);
         line-height: 2.25rem;
         margin-top: 20px;
     }

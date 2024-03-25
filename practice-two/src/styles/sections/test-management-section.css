@@ -2,7 +2,7 @@
 .test-management-section {
     margin-top: 90px;
     text-align: center;
-    background-color: rgba(248, 70, 70, 1);
+    background-color: var(--color-sunset-orange);
 }
 
 .test-management-section-contentbox {
@@ -10,17 +10,17 @@
 }
 
 .test-management-section-heading {
-    font-size: 2.25rem;
+    font-size: var(--font-size-larger);
     line-height: 2.9375rem;
     font-weight: var(--font-weight-bolder);
-    color: var(--color-second);
+    color: var(--color-while);
 }
 
 .test-management-section-subheading {
     margin-top: 10px;
-    font-size: 0.875rem;
+    font-size: var(--font-size-smaller);
     font-weight: var(--font-weight-normal);
-    color: var(--color-second);
+    color: var(--color-while);
 }
 
 .test-management-section-lists-content {
@@ -30,10 +30,10 @@
 
 .test-management-section-lists-content-heading {
     margin-bottom: 40px;
-    font-size: 1.125rem;
+    font-size: var(--font-size-xsmall);
     line-height: 1.536875rem;
     font-weight: var(--font-weight-bold);
-    color: var(--color-second);
+    color: var(--color-while);
 }
 
 /* tablet-version */
@@ -47,12 +47,12 @@
     }
 
     .test-management-section-heading {
-        font-size: 3rem;
+        font-size: var(--font-size-xlarge);
     }
 
     .test-management-section-subheading {
         margin-top: 25px;
-        font-size: 1.125rem;
+        font-size: var(--font-size-xsmall);
     }
 
     .test-management-section-lists-content {
@@ -65,7 +65,7 @@
     .test-management-section-lists-content-heading {
         width: 150px;
         margin: 0px;
-        font-size: 0.875rem;
+        font-size: var(--font-size-smaller);
         text-align: left;
     }
 }
