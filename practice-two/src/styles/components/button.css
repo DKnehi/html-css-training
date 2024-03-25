@@ -27,17 +27,18 @@
 
 /* start-quality-section */
 .section-button {
-    padding: 12px 147px;
+    height: 48px;
     margin-top: 40px;
     font-size: var(--font-size-smaller);
     font-weight: 600;
-    max-width: 100%;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
     .section-button {
         margin-top: 46px;
         padding: 12px 58px;
+        width: 160px;
     }
 }
 
