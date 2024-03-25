@@ -59,7 +59,7 @@
 
     .menu-lists {
         margin-right: 40px;
-        gap: 40px;
+        gap: 20px;
         display: flex;
         position: relative;
         transform: translateX(0);
@@ -74,5 +74,8 @@
 @media (min-width: 1025px) {
     .header {
         padding: 35px 122px 148px 122px;
+    }
+    .menu-lists {
+        gap: 40px;
     }
 }
