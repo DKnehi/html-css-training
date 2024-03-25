@@ -18,7 +18,7 @@
 .process-management-section-subheading {
     margin-top: 15px;
     font-size: var(--font-size-smallest);
-    line-height: 1.375rem;
+    line-height: 22px;
     letter-spacing: 0.2px;
     font-weight: var(--font-weight-normal);
     color: var(--color-black);
@@ -39,7 +39,7 @@
     .process-management-section-subheading {
         margin-top: 30px;
         font-size: var(--font-size-largest);
-        line-height: 2.46875rem;
+        line-height: 39.5px;
     }
 
 }

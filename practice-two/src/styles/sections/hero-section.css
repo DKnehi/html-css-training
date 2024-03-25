@@ -8,7 +8,7 @@
 
 .hero-section-heading {
     font-size: var(--font-size-large);
-    line-height: 3.59375rem;
+    line-height: 57.5px;
     font-weight: var(--font-weight-bolder);
     color: var(--color-black);
 }
@@ -16,7 +16,7 @@
 .hero-section-subheading {
     margin-top: 30px;
     font-size: var(--font-size-smallest);
-    line-height: 1.4375rem;
+    line-height: 23px;
     font-weight: var(--font-weight-normal);
     color: var(--color-black);
 }
@@ -47,12 +47,12 @@
 
     .hero-section-heading {
         font-size: var(--font-size-xxlarge);
-        line-height: 4.59375rem;
+        line-height: 73.5px;
     }
 
     .hero-section-subheading {
         font-size: var(--font-size-small);
-        line-height: 2rem;
+        line-height: 32px;
         margin-top: 20px;
     }
 
@@ -69,12 +69,12 @@
 
     .hero-section-heading {
         font-size: var(--font-size-xxxlarge);
-        line-height: 5.125rem;
+        line-height: 82px;
     }
 
     .hero-section-subheading {
         font-size: var(--font-size-medium);
-        line-height: 2.25rem;
+        line-height: 36px;
         margin-top: 20px;
     }
 

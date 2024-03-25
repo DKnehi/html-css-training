@@ -11,7 +11,7 @@
 
 .test-management-section-heading {
     font-size: var(--font-size-larger);
-    line-height: 2.9375rem;
+    line-height: 47px;
     font-weight: var(--font-weight-bolder);
     color: var(--color-while);
 }
@@ -31,7 +31,7 @@
 .test-management-section-lists-content-heading {
     margin-bottom: 40px;
     font-size: var(--font-size-xsmall);
-    line-height: 1.536875rem;
+    line-height: 24.59px;
     font-weight: var(--font-weight-bold);
     color: var(--color-while);
 }
