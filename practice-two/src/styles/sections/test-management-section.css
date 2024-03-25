@@ -26,6 +26,8 @@
 .test-management-section-lists-content {
     padding: 0 96px 84px 96px;
     margin-top: 55px;
+    display: grid;
+    place-items: center;
 }
 
 .test-management-section-lists-content-heading {
@@ -57,9 +59,8 @@
 
     .test-management-section-lists-content {
         padding: 0 61px 78px 61px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        grid-template-columns: repeat(7, 1fr);
+
     }
 
     .test-management-section-lists-content-heading {
@@ -79,4 +80,5 @@
 
     .test-management-section-lists-content {
         padding: 0 176px 78px 176px;
-    }
+    }
+}
