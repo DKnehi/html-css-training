@@ -1,5 +1,5 @@
 /* mobile-version */
-.section {
+.share-section {
     margin-top: 90px;
     padding: 0 20px;
     text-align: center;
@@ -23,7 +23,7 @@
 
 /* tablet-version */
 @media (min-width: 768px) {
-    .section {
+    .share-section {
         margin-top: 130px;
         padding: 0 40px;
         gap: 96px;
@@ -41,7 +41,7 @@
 
 /* desktop-version */
 @media (min-width: 1025px) {
-    .section {
+    .share-section {
         margin-top: 160px;
         padding: 0 122px;
         gap: 145px;
