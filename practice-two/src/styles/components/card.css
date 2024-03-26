@@ -79,7 +79,9 @@
 
 @media (min-width: 768px) {
     .references-section-list-content {
-        display: flex;
+        padding: 48px 38.5px 73px 38.5px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
         justify-content: center;
         gap: 24px;
     }
@@ -91,6 +93,10 @@
 }
 
 @media (min-width: 1025px) {
+    .references-section-list-content {
+        padding: 48px 247px 59px 247px;
+    }
+
     .references-section-list-contentbox {
         width: 170px;
     }
