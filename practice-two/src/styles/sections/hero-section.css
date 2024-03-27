@@ -35,6 +35,7 @@
 .hero-section-input {
     border: none;
     outline: none;
+    margin-left: 15px;
 }
 
 /* tablet-version */
