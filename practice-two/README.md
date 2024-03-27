@@ -21,19 +21,38 @@
 * Implement desktop/ mobile responsive
 * Getting the code to work cross browser latest version (Chrome, MS Edge)
 ## How to run
-* Clone source 
+- Clone the repository
+
+```bash
+git clone https://github.com/DKnehi/html-css-training.git
 ```
-https://github.com/DKnehi/html-css-training.git
+
+- Move to the cloned repository folder
+
+```bash
+cd html-css-training
 ```
-* Git checkout feature/practice-two
-```
+
+- Checkout to branch `feature/practice-two`
+
+```bash
 git checkout feature/practice-two
 ```
-* Install packages
+
+- Move to folder `practice-two`
+
+```bash
+cd practice-two
 ```
+
+- Install packages
+
+```bash
 npm install
 ```
-* Run project
-```
+
+- Run the server
+
+```bash
 npm start
 ```
