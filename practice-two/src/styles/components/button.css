@@ -26,7 +26,7 @@
 /* end-hero-section */
 
 /* start-quality-section */
-.section-button {
+.quality-section-button {
     height: 48px;
     margin-top: 40px;
     font-size: var(--font-size-smaller);
@@ -35,7 +35,7 @@
 }
 
 @media (min-width: 768px) {
-    .section-button {
+    .quality-section-button {
         margin-top: 46px;
         padding: 12px 58px;
         width: 160px;
@@ -43,7 +43,7 @@
 }
 
 @media (min-width: 1025px) {
-    .section-button {
+    .quality-section-button {
         margin-top: 80px;
     }
 }

@@ -1,4 +1,5 @@
-.section-image {
+/* start-quality-section */
+.quality-section-image {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -11,6 +12,7 @@
     }
 }
 
-.analysis-section-imagebox {
+.quality-section-second-imagebox {
     order: -1;
 }
+/* end-quality-section */

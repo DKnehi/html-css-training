@@ -67,6 +67,7 @@
 
     .menu-lists-active {
         background: none;
+        transition: 0s ease;
     }
 }
 
