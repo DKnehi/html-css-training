@@ -1,11 +1,11 @@
 /* mobile-version */
-.share-section {
+.quality-section {
     margin-top: 90px;
     padding: 0 20px;
     text-align: center;
 }
 
-.section-heading {
+.quality-section-heading {
     margin-top: 30px;
     font-size: var(--font-size-larger);
     line-height: 41.5px;
@@ -13,7 +13,7 @@
     color: var(--color-mine-shaft);
 }
 
-.section-subheading {
+.quality-section-subheading {
     margin-top: 20px;
     font-size: var(--font-size-smaller);
     line-height: 28.5px;
@@ -23,7 +23,7 @@
 
 /* tablet-version */
 @media (min-width: 768px) {
-    .share-section {
+    .quality-section {
         margin-top: 130px;
         padding: 0 40px;
         gap: 96px;
@@ -32,7 +32,7 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .section-heading {
+    .quality-section-heading {
         margin: 0;
         font-size: 58px;
         line-height: 59.5px;
@@ -41,18 +41,18 @@
 
 /* desktop-version */
 @media (min-width: 1025px) {
-    .share-section {
+    .quality-section {
         margin-top: 160px;
         padding: 0 122px;
         gap: 145px;
     }
 
-    .section-heading {
+    .quality-section-heading {
         font-size: var(--font-size-xxxlarge);
         line-height: 76px;
     }
 
-    .section-subheading {
+    .quality-section-subheading {
         margin-top: 40px;
         font-size: var(--font-size-small);
         line-height: 32px;
