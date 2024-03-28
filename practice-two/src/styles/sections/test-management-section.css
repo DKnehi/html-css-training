@@ -1,13 +1,11 @@
 /* mobile-version */
 .test-management-section {
-    margin-top: 90px;
     text-align: center;
     background-color: var(--color-sunset-orange);
+    padding: 50px 20px 84px 20px;
 }
 
-.test-management-section-contentbox {
-    padding: 50px 20px 0px 20px;
-}
+.test-management-section-contentbox {}
 
 .test-management-section-heading {
     font-size: var(--font-size-larger);
@@ -17,21 +15,21 @@
 }
 
 .test-management-section-subheading {
-    margin-top: 10px;
+    margin: 10px 0 55px 0;
     font-size: var(--font-size-smaller);
     font-weight: var(--font-weight-normal);
     color: var(--color-while);
 }
 
 .test-management-section-lists-content {
-    padding: 0 96px 84px 96px;
-    margin-top: 55px;
+    padding: 0 76px;
     display: grid;
     place-items: center;
+
 }
 
 .test-management-section-lists-content-heading {
-    margin-bottom: 40px;
+
     font-size: var(--font-size-xsmall);
     line-height: 24.59px;
     font-weight: var(--font-weight-bold);
@@ -41,11 +39,7 @@
 /* tablet-version */
 @media (min-width: 768px) {
     .test-management-section {
-        margin-top: 130px;
-    }
-
-    .test-management-section-contentbox {
-        padding-top: 35px;
+        padding: 50px 40px;
     }
 
     .test-management-section-heading {
@@ -53,13 +47,13 @@
     }
 
     .test-management-section-subheading {
-        margin-top: 25px;
+        margin-top: 30px;
         font-size: var(--font-size-xsmall);
     }
 
     .test-management-section-lists-content {
-        padding: 0 61px 78px 61px;
         grid-template-columns: repeat(7, 1fr);
+        padding: 0;
     }
 
     .test-management-section-lists-content-heading {
@@ -72,12 +66,7 @@
 
 /* desktop-version */
 @media (min-width: 1025px) {
-
-    .test-management-section-contentbox {
-        padding-top: 68px;
-    }
-
-    .test-management-section-lists-content {
-        padding: 0 176px 78px 176px;
+    .test-management-section {
+        padding: 68px 176px;
     }
 }

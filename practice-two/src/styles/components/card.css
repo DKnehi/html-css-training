@@ -2,6 +2,7 @@
     display: grid;
     row-gap: 80px;
     place-items: center;
+
 }
 
 .process-management-section-card {
@@ -13,14 +14,12 @@
     font-weight: var(--font-weight-bolder);
     font-size: var(--font-size-largest);
     color: var(--color-black);
-    margin-top: 10px;
 }
 
 .process-management-section-card-subheading {
     font-weight: var(--font-weight-normal);
     font-size: var(--font-size-xsmall);
     color: var(--color-black);
-    margin-top: 10px;
     line-height: 28px;
 }
 
@@ -35,28 +34,19 @@
     width: 170px;
     height: 96px;
     border-radius: 16px;
-    background-color: white;
+    background-color: var(--color-while);
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 @media (min-width: 768px) {
     .process-management-section-cardbox {
         grid-template-columns: repeat(2, 1fr);
+        
     }
 
-    .second-card {
-        grid-row: 2 / 2;
-        grid-column: 1 / 2;
-    }
-
-    .third-card {
-        grid-row: 3 / 4;
-        grid-column: 1 / 2;
-    }
-    
     .references-section-list-content {
-        padding: 48px 38.5px 73px 38.5px;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         justify-content: center;
@@ -74,18 +64,8 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .second-card {
-        grid-row: 1 / 2;
-        grid-column: 2 / 3;
-    }
-
-    .third-card {
-        grid-row: 1 / 2;
-        grid-column: 3 / 4;
-    }
-
     .references-section-list-content {
-        padding: 48px 247px 59px 247px;
+        padding: 60px 125px;
     }
 
     .references-section-list-contentbox {
