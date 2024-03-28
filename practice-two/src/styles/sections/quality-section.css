@@ -1,7 +1,6 @@
 /* mobile-version */
 .quality-section {
     margin-top: 90px;
-    padding: 0 20px;
     text-align: center;
 }
 
@@ -24,8 +23,7 @@
 /* tablet-version */
 @media (min-width: 768px) {
     .quality-section {
-        margin-top: 130px;
-        padding: 0 40px;
+        margin-top: 160px;
         gap: 96px;
         display: grid;
         text-align: left;
@@ -42,8 +40,6 @@
 /* desktop-version */
 @media (min-width: 1025px) {
     .quality-section {
-        margin-top: 160px;
-        padding: 0 122px;
         gap: 145px;
     }
 
@@ -57,5 +53,4 @@
         font-size: var(--font-size-small);
         line-height: 32px;
     }
-
 }

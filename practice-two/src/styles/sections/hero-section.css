@@ -1,6 +1,6 @@
 /* mobile-version */
 .hero-section {
-    margin-top: 66px;
+    padding: 62px 0 84px 0;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@
 }
 
 .hero-section-inputbox {
-    max-width: 512px;
+    width: 100%;
     padding: 5px;
     margin-top: 43px;
     display: flex;
@@ -41,8 +41,8 @@
 /* tablet-version */
 @media (min-width: 768px) {
     .hero-section {
+        padding: 96px 0 127px 0;
         width: 665px;
-        margin-top: 96px;
         text-align: left;
     }
 
@@ -59,13 +59,14 @@
 
     .hero-section-inputbox {
         margin-top: 20px;
+        max-width: 512px;
     }
 }
 
 /* desktop-version */
 @media (min-width: 1025px) {
     .hero-section {
-        margin-top: 135px;
+        padding: 135px 0 148px 0;
     }
 
     .hero-section-heading {

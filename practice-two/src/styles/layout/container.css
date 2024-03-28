@@ -1,4 +1,22 @@
-.container {
-    width: 1440px;
+.container-relative {
+    max-width: 1440px;
     overflow: hidden;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .container {
+        padding-left: 122px;
+        padding-right: 122px;
+    }
 }

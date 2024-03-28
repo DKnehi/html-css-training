@@ -6,7 +6,7 @@
 }
 
 .test-management-section-contentbox {
-    padding: 50px 20px 0px 20px;
+    padding-top: 50px;
 }
 
 .test-management-section-heading {
@@ -24,10 +24,9 @@
 }
 
 .test-management-section-lists-content {
-    padding: 0 96px 84px 96px;
-    margin-top: 55px;
     display: grid;
     place-items: center;
+    padding: 55px;
 }
 
 .test-management-section-lists-content-heading {
@@ -41,11 +40,11 @@
 /* tablet-version */
 @media (min-width: 768px) {
     .test-management-section {
-        margin-top: 130px;
+        margin-top: 140px;
     }
 
     .test-management-section-contentbox {
-        padding-top: 35px;
+        padding-top: 38px;
     }
 
     .test-management-section-heading {
@@ -58,7 +57,7 @@
     }
 
     .test-management-section-lists-content {
-        padding: 0 61px 78px 61px;
+        padding: 78px 0;
         grid-template-columns: repeat(7, 1fr);
     }
 
@@ -72,12 +71,7 @@
 
 /* desktop-version */
 @media (min-width: 1025px) {
-
     .test-management-section-contentbox {
         padding-top: 68px;
-    }
-
-    .test-management-section-lists-content {
-        padding: 0 176px 78px 176px;
     }
 }

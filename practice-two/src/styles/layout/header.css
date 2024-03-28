@@ -1,11 +1,11 @@
 /* mobile-version */
 .header {
-    padding: 35px 20px 84.15px 20px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../assets/images/hero-section/header-image.png);
     background-repeat: no-repeat;
 }
 
 .menu-header {
+    padding-top: 35px;
     display: flex;
     justify-content: space-between;
 }
@@ -26,7 +26,7 @@
     width: 100%;
     transform: translateX(0);
     transition: 1s ease;
-    background-color: white;
+    background-color: var(--color-while);
     text-align: center;
 }
 
@@ -44,7 +44,6 @@
 /* tablet-version */
 @media (min-width: 768px) {
     .header {
-        padding: 35px 40px 127px 40px;
         background-image: url(../../assets/images/hero-section/header-image.png);
     }
 
@@ -73,9 +72,6 @@
 
 /* desktop-version */
 @media (min-width: 1025px) {
-    .header {
-        padding: 35px 122px 148px 122px;
-    }
     .menu-lists {
         gap: 40px;
     }

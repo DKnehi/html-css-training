@@ -1,15 +1,10 @@
 /* mobile-version */
 .process-management-section {
     text-align: center;
-}
-
-.process-management-section-contentbox {
-    margin-bottom: 40px;
-    padding: 0 20px;
+    margin-top: 60px;
 }
 
 .process-management-section-heading {
-    margin-top: 60px;
     font-size: var(--font-size-largest);
     font-weight: var(--font-weight-bolder);
     color: var(--color-black);
@@ -27,12 +22,16 @@
 
 /* tablet-version */
 @media (min-width: 768px) {
+    .process-management-section {
+        margin-top: 120px;
+        padding: 0 !important;
+    }
+
     .process-management-section-contentbox {
-        margin-bottom: 90px;
+        padding: 0 86px;
     }
 
     .process-management-section-heading {
-        margin-top: 120px;
         font-size: var(--font-size-larger);
     }
 
@@ -49,5 +48,4 @@
     .process-management-section-contentbox {
         padding: 0 223px;
     }
-
 }
