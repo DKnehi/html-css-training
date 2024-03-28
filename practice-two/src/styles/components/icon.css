@@ -3,11 +3,12 @@
     width: 32px;
     height: 32px;
 }
+
 /* end-header */
 
 /* start-test-management-section */
 .test-management-section-lists-content-arrow {
-    margin-bottom: 40px;
+    margin: 40px 0;
     width: 36px;
     height: 36px;
 }
@@ -38,4 +39,5 @@
     width: 32px;
     height: 32px;
 }
+
 /* end-footer */

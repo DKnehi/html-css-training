@@ -2,7 +2,7 @@
     display: grid;
     row-gap: 80px;
     place-items: center;
-    margin-top: 40px;
+
 }
 
 .process-management-section-card {
@@ -14,14 +14,12 @@
     font-weight: var(--font-weight-bolder);
     font-size: var(--font-size-largest);
     color: var(--color-black);
-    margin-top: 10px;
 }
 
 .process-management-section-card-subheading {
     font-weight: var(--font-weight-normal);
     font-size: var(--font-size-xsmall);
     color: var(--color-black);
-    margin-top: 10px;
     line-height: 28px;
 }
 
@@ -45,7 +43,7 @@
 @media (min-width: 768px) {
     .process-management-section-cardbox {
         grid-template-columns: repeat(2, 1fr);
-        margin-top: 90px;
+        
     }
 
     .references-section-list-content {

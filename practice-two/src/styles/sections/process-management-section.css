@@ -1,7 +1,7 @@
 /* mobile-version */
 .process-management-section {
     text-align: center;
-    margin-top: 60px;
+    padding: 60px 0 90px 0;
 }
 
 .process-management-section-heading {
@@ -11,10 +11,10 @@
 }
 
 .process-management-section-subheading {
-    margin-top: 15px;
     font-size: var(--font-size-smallest);
     line-height: 22px;
     letter-spacing: 0.2px;
+    margin: 15px 0 40px 0;
     font-weight: var(--font-weight-normal);
     color: var(--color-black);
 }
@@ -23,20 +23,17 @@
 /* tablet-version */
 @media (min-width: 768px) {
     .process-management-section {
-        margin-top: 120px;
-        padding: 0 !important;
+        padding: 120px 0 140px 0;
     }
 
-    .process-management-section-contentbox {
-        padding: 0 86px;
-    }
+    .process-management-section-contentbox {}
 
     .process-management-section-heading {
         font-size: var(--font-size-larger);
     }
 
     .process-management-section-subheading {
-        margin-top: 30px;
+        margin: 30px 0 90px 0;
         font-size: var(--font-size-largest);
         line-height: 39.5px;
     }
@@ -45,7 +42,11 @@
 
 /* desktop-version */
 @media (min-width: 1025px) {
+    .process-management-section {
+        /* padding: 120px 144px 140px 144px; */
+    }
+
     .process-management-section-contentbox {
-        padding: 0 223px;
+        padding: 0 80px;
     }
 }

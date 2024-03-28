@@ -1,11 +1,11 @@
 /* mobile-version */
 .header {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../assets/images/hero-section/header-image.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../assets/images/hero-section/header.png);
     background-repeat: no-repeat;
+    padding: 35px 20px 84px 20px;
 }
 
 .menu-header {
-    padding-top: 35px;
     display: flex;
     justify-content: space-between;
 }
@@ -44,7 +44,8 @@
 /* tablet-version */
 @media (min-width: 768px) {
     .header {
-        background-image: url(../../assets/images/hero-section/header-image.png);
+        background-image: url(../../assets/images/hero-section/header.png);
+        padding: 35px 40px 127px 40px;
     }
 
     .menu-header {
@@ -72,6 +73,10 @@
 
 /* desktop-version */
 @media (min-width: 1025px) {
+    .header {
+        padding: 35px 122px 148px 122px;
+    }
+
     .menu-lists {
         gap: 40px;
     }

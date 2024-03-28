@@ -1,6 +1,5 @@
 /* mobile-version */
 .hero-section {
-    padding: 62px 0 84px 0;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -14,17 +13,16 @@
 }
 
 .hero-section-subheading {
-    margin-top: 30px;
     font-size: var(--font-size-smallest);
     line-height: 23px;
     font-weight: var(--font-weight-normal);
     color: var(--color-black);
+    margin: 30px 0 43px 0;
 }
 
 .hero-section-inputbox {
     width: 100%;
     padding: 5px;
-    margin-top: 43px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +39,6 @@
 /* tablet-version */
 @media (min-width: 768px) {
     .hero-section {
-        padding: 96px 0 127px 0;
         width: 665px;
         text-align: left;
     }
@@ -54,11 +51,10 @@
     .hero-section-subheading {
         font-size: var(--font-size-small);
         line-height: 32px;
-        margin-top: 20px;
+        margin: 20px 0;
     }
 
     .hero-section-inputbox {
-        margin-top: 20px;
         max-width: 512px;
     }
 }
@@ -66,7 +62,7 @@
 /* desktop-version */
 @media (min-width: 1025px) {
     .hero-section {
-        padding: 135px 0 148px 0;
+        margin-top: 135px;
     }
 
     .hero-section-heading {
@@ -77,10 +73,6 @@
     .hero-section-subheading {
         font-size: var(--font-size-medium);
         line-height: 36px;
-        margin-top: 20px;
-    }
-
-    .hero-section-inputbox {
-        margin-top: 50px;
+        margin-bottom: 50px;
     }
 }
